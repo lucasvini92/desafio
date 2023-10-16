@@ -1,6 +1,6 @@
-Cenário: Validar acesso e validação das principais paginas relacionadas a home
+Cenário01: Validar acesso e validação das principais paginas relacionadas a home
 
-Dado que eu acesso a url https|//www.amazon.com.br/
+Dado que eu acesso a url https://www.amazon.com.br/
 Quando realizo a validação de acesso da tela <tela>
 Então o título da página é validado
 E o carregamento dos elementos para verificar se a mesma foi renderizada.
@@ -16,3 +16,17 @@ Examples:
 |livros           |
 |musica           |
 |eletronicos      |
+
+Cenário02: Validar adição de itens no carrinho da amazon
+
+Dado que eu acesso a url https://www.amazon.com.br/ no menu <menu>
+E seleciono um item para adicionar no carrinho
+Quando confirmo a adição no carrinho
+Então sou encaminhado para a tela de validação dos dados no carrinho
+
+Examples:
+|    menu    |
+|maisVendidos|
+|livros      |
+|eletronicos |
+
