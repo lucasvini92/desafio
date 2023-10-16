@@ -11,7 +11,6 @@
 <br>
 
 ## 🎴 Como Usar?
-- Instalar o cypress
 - Executar o npm install
 - Executar o comando npx cypress open
 
