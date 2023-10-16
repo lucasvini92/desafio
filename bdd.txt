@@ -1,0 +1,18 @@
+Cenário: Validar acesso e validação das principais paginas relacionadas a home
+
+Dado que eu acesso a url https|//www.amazon.com.br/
+Quando realizo a validação de acesso da tela <tela>
+Então o título da página é validado
+E o carregamento dos elementos para verificar se a mesma foi renderizada.
+
+Examples:
+|       tela      |
+|vendaNaAmazon    |
+|maisVendidos     |
+|ofertasDoDia     |
+|prime            |
+|novidadesNaAmazon|
+|ideiasDePresente |
+|livros           |
+|musica           |
+|eletronicos      |
