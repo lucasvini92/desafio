@@ -69,7 +69,25 @@ describe('Validando adição de produtos no carrinho', () => {
     homePage.acessaMaisVendidos()
     bestSellersPage.confereMaisVendidos()
     bestSellersPage.selecionaProdutoMaisVendido()
+    checkoutPage.adicionaGarantia()
     checkoutPage.adicionaCarrinho()
     checkoutPage.irParaCarrinho()
-  })
+  }),
+    it('Adicionando livros no carrinho', () => {
+      homePage.acessaLivros()
+      booksPage.confereLivros()
+      booksPage.pesquisaLivros()
+      booksPage.selecionaLivro()
+      checkoutPage.adicionaCarrinho()
+      checkoutPage.irParaCarrinho()
+    }),
+    it('Adicionando produto eletrônico no carrinho', () => {
+      homePage.acessaEletronicos()
+      electronicsPage.confereEletronicos()
+      electronicsPage.pesquisaEletronicos()
+      electronicsPage.selecionaProdutoEletronico()
+      checkoutPage.adicionaGarantia()
+      checkoutPage.adicionaCarrinho()
+      checkoutPage.irParaCarrinho()
+    })
 })  

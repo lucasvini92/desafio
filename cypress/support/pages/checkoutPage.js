@@ -17,12 +17,17 @@ const elements = {
 }
 export default {
   adicionaCarrinho() {
-    cy.get(elements.botao.garantiaExtendida).check()
     cy.get(elements.botao.adicionaCarrinho).click()
   },
+
+  adicionaGarantia() {
+    cy.get(elements.botao.garantiaExtendida).check()
+  },
+
   irParaCarrinho() {
     cy.get(elements.botao.irParaCarrinho).click()
   },
+
   confirmaItemAdicionado() {
     cy.get(elements.texto.confirmaItemAdicionado)
       .then((element) => {
