@@ -69,7 +69,6 @@ describe('Validando adição de produtos no carrinho', () => {
     homePage.acessaMaisVendidos()
     bestSellersPage.confereMaisVendidos()
     bestSellersPage.selecionaProdutoMaisVendido()
-    checkoutPage.adicionaGarantia()
     checkoutPage.adicionaCarrinho()
     checkoutPage.irParaCarrinho()
   }),

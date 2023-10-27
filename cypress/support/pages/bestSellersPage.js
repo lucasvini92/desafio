@@ -8,7 +8,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 const elements = {
   menus: {
     maisVendidos: '#zg_banner_subtext',
-    selecionaProduto: '#B08TRM2YNX > a > span > div'
+    selecionaProduto: '#B0BCV9XWZZ > a:nth-child(1)'
   },
   titulos: {
     maisVendidos: 'Amazon.com.br Mais Vendidos: Os itens mais populares na Amazon',

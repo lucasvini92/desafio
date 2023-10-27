@@ -13,9 +13,9 @@ const elements = {
     ofertasDoDia: '#nav-xshop > a:nth-child(4)',
     prime: '#nav-xshop > a:nth-child(5)',
     novidadesNaAmazon: '#nav-xshop > a:nth-child(6)',
-    ideiasDePresente: '#nav-xshop > a:nth-child(7)',
-    livros: '#nav-xshop > a:nth-child(8)',
-    musica: '#nav-xshop > a:nth-child(9)',
+    livros: '#nav-xshop > a:nth-child(7)',
+    musica: '#nav-xshop > a:nth-child(8)',
+    ideiasDePresente: '#nav-xshop > a:nth-child(9)',
     eletronicos: '#nav-xshop > a:nth-child(10)',
   },
   images: {
